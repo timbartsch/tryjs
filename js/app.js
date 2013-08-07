@@ -78,6 +78,7 @@ var app = (function($, undefined){
   module.init = function(){
     editor.init();
     editor.onChange(handleEditorChange);
+    handleEditorChange();
   };
 
   return module;
